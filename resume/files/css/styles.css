@@ -175,21 +175,48 @@ h2 {
 	font-weight: normal;
 }
 
+.role {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+}
 
+.description p,
+.affiliations p {
+	font-size: 14px;
+	line-height: 18px;
+}
 
+.affiliations p{
+	margin-bottom: 15px;
+}
 
+h3 {
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
 
+.skillset-left,
+.skillset-right {
+	list-style-type: none;
+	padding: 0;
+	float: left;
+	width:48%;
+}
 
+.skillset-left {
+	margin-right: 4%;
+}
 
-
-
-
-
-
-
-
-
-
+.skillset-left li,
+.skillset-right li {
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 5px;
+}
 
 
 
