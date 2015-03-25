@@ -1,0 +1,135 @@
+/* General Styles */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: #222222;
+}
+
+a, a:visited {
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+.logo {
+  padding-top: 25px;
+}
+
+h1 {
+  width: 50px;
+  background: #14BDD1;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 50px;
+  border-radius: 50px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 50px;
+  color: #222222;
+  display: inline-block;
+}
+
+
+
+/* Content */
+
+.content {
+  width: 940px;
+  background: #ffffff;
+  margin: 50px auto;
+}
+
+.button-wrapper {
+  width: 100%;
+  margin: 200px;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  margin-right: 50px;
+  transition: all 200ms ease-in-out;
+}
+
+.one {
+  color: #14bdd1;
+  border: 1px solid #14bdd1;
+  border-radius: 50px;
+  background: transparent;
+}
+
+  .one:hover {
+    color: #ffffff;
+    background: #14BDD1;
+  }
+
+.two {
+  color: #ffffff;
+  background: #14bdd1;
+  border-radius: 50px;
+}
+
+  .two:hover {
+    border-radius: 5px;
+    background: #0a8b9a;
+  }
+
+.three {
+  background: #14bdd1;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+  .three:hover {
+    background: #44cddd;
+    box-shadow: 0 5px 20px #aaaaaa;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
