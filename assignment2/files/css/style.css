@@ -123,3 +123,34 @@ h1 {
 	clear: both;
 	padding-top: 30px;
 }
+
+/*lightbox*/
+
+.project {
+  width: 200px;
+  height: 180px;
+  background: #cccccc;
+  color: #ffffff;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  margin-right: auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+  .project img {
+    height: 100%;
+  }
+
+  .project:hover {
+    opacity: .65;
+  }
+
+  .last {
+    margin-right: 0px;
+  }
